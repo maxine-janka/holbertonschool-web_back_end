@@ -1,0 +1,1 @@
+This projects contains tasks for ES6 Basics. For Holberton School Australia. By Maxine Janka
