@@ -1,12 +1,12 @@
-import ClassRoom from "./0-classroom.js";
+import ClassRoom from './0-classroom';
 
-export default function initializeRooms(classRoom) {
+export default function initializeRooms() {
   const classRoomList = []; // Create a new list
   const classSize = [19, 20, 34]; // Declare class sizes in a list
-  
+
   // Iterate each classSize and use each one to create a new ClassRoom object
-  for (let idx of classSize) {
-    let newClass = new ClassRoom(idx);
+  for (const idx of classSize) {
+    const newClass = new ClassRoom(idx);
     // Append new object to empty list
     classRoomList.push(newClass);
   }
