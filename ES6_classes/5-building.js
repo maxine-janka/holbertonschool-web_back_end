@@ -10,14 +10,14 @@ export default class Building {
 
     // Check if instance is a subclass and check if evacuation message is the original from Building
     // If instance is not a subclass and has the original message, throw an error.
-    if (this.constructor !== Building &&
-        this.evacuationWarningMessage === Building.prototype.evacuationWarningMessage) {
+    if (this.constructor !== Building 
+        && this.evacuationWarningMessage === Building.prototype.evacuationWarningMessage) {
       Building.evacuationWarningMessage();
     }
   }
 
-    // Getter to return private sqft
-    get sqft() {
+  // Getter to return private sqft
+  get sqft() {
     return this._sqft;
   }
 
