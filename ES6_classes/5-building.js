@@ -10,7 +10,7 @@ export default class Building {
 
     // Check if instance is a subclass and check if evacuation message is the original from Building
     // If instance is not a subclass and has the original message, throw an error.
-    if (this.constructor !== Building 
+    if (this.constructor !== Building
         && this.evacuationWarningMessage === Building.prototype.evacuationWarningMessage) {
       Building.evacuationWarningMessage();
     }
