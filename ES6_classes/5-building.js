@@ -21,7 +21,7 @@ export default class Building {
   }
   
   // Abstract method that should be overwritten by a subclass
-  evacuationWarningMessage() {
+  static evacuationWarningMessage() {
     throw new Error ('extending Building must override evacuationWarningMessage');
   }
 }
