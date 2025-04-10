@@ -13,7 +13,7 @@ export default class Car {
     if (typeof value === 'string' || value === undefined) {
       this._brand = value;
     } else {
-      throw new TypeError('brand must be a string or undefined')
+      throw new TypeError('brand must be a string or undefined');
     }
   }
 
@@ -22,10 +22,10 @@ export default class Car {
   }
 
   set motor(value) {
-    if (typeof value === 'string'  || value === undefined) {
+    if (typeof value === 'string' || value === undefined) {
       this._motor = value;
     } else {
-      throw new TypeError('motor must be a string or undefined')
+      throw new TypeError('motor must be a string or undefined');
     }
   }
 
@@ -37,7 +37,7 @@ export default class Car {
     if (typeof value === 'string' || value === undefined) {
       this._color = value;
     } else {
-      throw new TypeError('color must be a string or undefined')
+      throw new TypeError('color must be a string or undefined');
     }
   }
 
