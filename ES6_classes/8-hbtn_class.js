@@ -27,7 +27,7 @@ export default class HolbertonClass {
       throw new TypeError('location must be a string');
     }
   }
-  
+
   valueOf() {
     return this.size;
   }
