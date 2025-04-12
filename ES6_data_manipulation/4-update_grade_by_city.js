@@ -1,7 +1,7 @@
 export default function updateStudentGradeByCity(studentList, city, newGrades) {
   // New arr with filtered students from specified city
   const studentsInCity = studentList
-    .filter((student) => student.location === city); 
+    .filter((student) => student.location === city);
 
   // From filtered list create new array
   // for each student in filtered list, search the newGrades input array,
@@ -22,7 +22,7 @@ export default function updateStudentGradeByCity(studentList, city, newGrades) {
     // for current student
     const newStudent = {
       ...student,
-      grade: grade,
+      grade,
     };
 
     return newStudent;
