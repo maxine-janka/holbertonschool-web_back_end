@@ -4,9 +4,9 @@ and returns a list of tuples containing the element index and the length
 of each element"""
 
 
-from typing import Sequence, List, Tuple
+from typing import Sequence, List, Tuple, Iterable
 
 
-def element_length(lst: Sequence) -> Tuple[Sequence, int]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Takes an interable and returns a list of tuples"""
     return [(i, len(i)) for i in lst]
