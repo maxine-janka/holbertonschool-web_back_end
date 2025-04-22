@@ -1,0 +1,1 @@
+This project contains tasks for Python - Variable Annotations. For Holberton School Australia. By Maxine Janka.
