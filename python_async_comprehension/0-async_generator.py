@@ -7,6 +7,7 @@ import asyncio
 from typing import Generator
 import random
 
+
 async def async_generator() -> Generator[float, None, None]:
     """Yields 10 random floats with 1 second async delay"""
 
