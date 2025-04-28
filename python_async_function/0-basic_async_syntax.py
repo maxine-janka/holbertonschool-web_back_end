@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """This module contains an async function that takes an integer
  with a default value, waits for a delay and returns the
- random delay float number
+ random delay as a float number.
 """
 
 
