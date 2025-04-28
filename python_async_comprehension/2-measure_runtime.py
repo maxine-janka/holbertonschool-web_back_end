@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """The module conatins an async function that executes another
 function four times concurrently and returns the runtime"""
 
