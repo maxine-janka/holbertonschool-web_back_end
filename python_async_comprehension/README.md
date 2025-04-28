@@ -1,0 +1,1 @@
+This project contains tasks for Python - Async Comprehension. For Holberton School Australia. By Maxine Janka.
