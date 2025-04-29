@@ -3,7 +3,7 @@ export default function getResponseFromAPI() {
     try {
       resolve('Success');
     } catch (error) {
-      reject('error');
+      reject(error.message);
     }
   });
   return promise;
