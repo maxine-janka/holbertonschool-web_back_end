@@ -1,0 +1,1 @@
+This project contains tasks for ES6 - Promises. By Maxine Janka. For Holberton School Australia.
