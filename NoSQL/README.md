@@ -1,0 +1,1 @@
+This project contains tasks for NoSQL. By Maxine Janka. For Holberton School Australia.
